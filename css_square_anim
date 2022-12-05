@@ -44,22 +44,23 @@ background: radial-gradient(circle, rgba(64,180,52,1) 0%, rgba(52,75,48,1) 100%)
 {
     0%
     {
-        transform: translateX(50%) translateY(50%);
+        transform: translateX(50%) translateY(50%) rotate(0deg);
+        
     }
     25%
     {
-        transform:  translateX(50%) translateY(250%);
+        transform:  translateX(50%) translateY(250%) rotate(90deg);
     }
     50%
     {
-        transform: translateX(250%) translateY(250%);
+        transform: translateX(250%) translateY(250%) rotate(180deg);
     }
     75%
     {
-        transform: translateX(250%) translateY(50%);
+        transform: translateX(250%) translateY(50%) rotate(270deg);
     }
     100%
     {
-        transform: translateX(50%) translateY(50%);
+        transform: translateX(50%) translateY(50%) rotate(760deg);
     }
 }
