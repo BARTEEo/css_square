@@ -66,7 +66,7 @@ body
 }
 .container:hover .heart
 {
-    animation-play-state: paused;
+    animation: beating 0.3s infinite;
 }
 @keyframes beating
 {
